@@ -1,0 +1,92 @@
+body {
+    background-color: paleturquoise;
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+    color: darkcyan;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.profile {
+    width: 175px;
+    height: 250px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: darkgoldenrod;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(#003383 0%, #008083 100%);
+    display: table;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    opacity: 0.83;
+    border-color: goldenrod;
+    border-style: double;
+    border-width: 10px;
+}
+
+.menu {
+    list-style: none;
+    font-family: inherit;
+    font-size: 24;
+    position: fixed;
+    font-family: 'Akaya Telivigala', cursive;
+    margin-top: 0px;
+    top: 0px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+    background-color: #9fa8ff;
+    border-style: double;
+    border-color: palegoldenrod;
+    border-width: 10px;
+}
+
+.links {
+    float: left;
+    color: #ffff;
+    padding-left: 65px;
+    padding-right: 50px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+img {
+    border-color: goldenrod;
+    border-width: 10px;
+    border-style: double;
+    margin-top: 100;
+}
+
+h1 {
+    font-size: 40;
+    font-family: 'Dancing Script', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: palegoldenrod;
+    text-shadow: 2px 2px #c0bfe2;
+}
+
+#contact {
+    background-color: #9fa8ff;
+    border-color: goldenrod;
+    border-width: 10px;
+    border-style: double;
+}
+
+.contact_1 a {
+    color: palegoldenrod;
+    text-shadow: 2px 2px #c0bfe2;
+}
